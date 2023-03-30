@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&family=Rancho&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rancho', cursive;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,.25),0 12px 12px rgba(0,0,0,.20);
+    transition: .3s;
+    background: #fff;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+}
+p{
+    text-align: center;
+    color: rgb(83, 130, 171);
+    padding: 0 8px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+li{
+    padding: 5px;
+}
+.checked {
+    color: orange;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  .btn{
+    text-align: center;
+    font-size: 25px;
+    color: #a32c2c;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline:none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+h5 {
+    color: aliceblue;
+}
+.image{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+a{
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+@media(max-width:1000px){
+    .card{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .card{
+        width: 100%;
+    }
+}
+
